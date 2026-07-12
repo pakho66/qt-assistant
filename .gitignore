@@ -1,0 +1,45 @@
+# Qt build output
+debug/
+release/
+
+# Build artifacts
+*.o
+*.obj
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+Makefile
+Makefile.Debug
+Makefile.Release
+.qmake.stash
+object_script.*
+
+# Qt Creator
+*.user
+*.user.*
+*.qbs
+*.qmlc
+*.jsc
+
+# Config with API key (sensitive)
+debug/config.ini
+release/config.ini
+config.ini
+
+# Chat history (user data)
+debug/chats/
+release/chats/
+chats/
+
+# Shortcut
+*.lnk
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
